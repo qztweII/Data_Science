@@ -9,6 +9,8 @@ print(df.describe())                     #Average age: 25 years old, oldest: 97 
 print(df['NOC'].nunique())
 print(df['NOC'].unique())
 
+print(df.sample(n=10))
+print(df.query("Medal.str.startswith('Gold')"))
 #Country codes:
 #URS = USSR
 #GDR = East Germany
