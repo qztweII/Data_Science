@@ -10,7 +10,7 @@ print(df['NOC'].nunique())
 print(df['NOC'].unique())
 
 print(df.sample(n=10))
-print(df.query("Medal.str.startswith('Gold')"))
+print(df.query("Medal == 'Gold'")) #Who won gold
 #Country codes:
 #URS = USSR
 #GDR = East Germany

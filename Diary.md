@@ -13,3 +13,4 @@ Today was quite a surprise. I learnt that pandas's describe feature is so convin
 
 Here, I learnt that ten-year-olds have been in the olympics, as well as ninetyseven-year-olds. They are both quite the achievement. 
 
+I have also done some extras, like filtering based on a characteristic (in this case, it is finding out who won gold in all of the events)
