@@ -1,7 +1,11 @@
-# Filter for female athletes only
-female_athletes = df[df['Sex'] == 'F']
-print(female_athletes.head())
+import pandas as pd
 
-# Filter for athletes older than 35
-older_athletes = df[df['Age'] > 35]
-print(older_athletes[['Name', 'Age', 'Sport']].head())
+df = pd.read_csv("athlete_events.csv")
+
+# Combined filter for Aussie swimmers
+aus_swimmers = df[(df['NOC'] == 'AUS') & (df["Sport"] == 'Swimming').head()]
+print(aus_swimmers)
+
+#Filter by height then weight
+sorted_by_height = df.sort_values(by="Height", ascending=False)
+print(sorted_by_height[["Name", "Height", "Weight"]].head(20))
