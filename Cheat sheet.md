@@ -19,4 +19,4 @@ Gives the average, median, standard deviation, smallest, 25th percentile, 75th p
 > `df.describe()`
 
 How many unique items there are within that column
-> `df.["group"].
+> `df.["group"].nunique`

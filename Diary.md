@@ -16,4 +16,13 @@ Here, I learnt that ten-year-olds have been in the olympics, as well as ninetyse
 I have also done some extras, like filtering based on a characteristic (in this case, it is finding out who won gold in all of the events)
 
 ## Activity 3
-I am going to use pandas for filtering information. I have figured out how to actually filter in pandas. I ditched that cheat sheet and decided that it'd be better to make my own. I still have not figured out how to filter by height, then sort by weight. 
+I am going to use pandas for filtering information. I have figured out how to actually filter in pandas. I ditched that cheat sheet and decided that it'd be better to make my own. I still have not figured out how to filter by height, then sort by weight, only having sorted by height, the weight still unsorted. 
+
+## 6/6/2025
+Assessment task issued. Uh oh. 
+
+## Activity 3 cont. 
+I had a search online, and I changed the *by* value to a list, so it now sorts by height then weight. 
+
+I noticed that the data listed many of the same people, the tallest person, Yao Ming being printed three times as the tallest person. I also noticed that the top thirty results (duplicates included) were all male. 
+
