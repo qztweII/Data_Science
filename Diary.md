@@ -27,5 +27,10 @@ I had a search online, and I changed the *by* value to a list, so it now sorts b
 I noticed that the data listed many of the same people, the tallest person, Yao Ming being printed three times as the tallest person. I also noticed that the top thirty results (duplicates included) were all male. 
 
 ## Activity 4 (Week 3)
-This activity was about handling files. I tried to use relative paths, with `Week 3/Making a new file.py` trying to access `athlete_events.csv` by typing `data_path = "../athlete_events.csv"`. Little did I know that the path was not relative to the file itself, but the DATA_SCIENCE folder, so it was trying to access the parent folder, the `U:/` (aka my student drive). I tried this with `..\TEST!!!!!!`, accessing the `U:/` drive directly. 
+This activity was about handling files. I tried to use relative paths, with `Week 3/Making a new file.py` trying to access `athlete_events.csv` by typing `data_path = "../athlete_events.csv"`. Little did I know that the path was not relative to the file itself, but the `DATA_SCIENCE` folder, so it was trying to access the parent folder, the `U:/` (aka my student drive). I tried this with `..\TEST!!!!!!`, accessing the `U:/` drive directly. 
 
+## Activity 4 cont. 
+Made a new csv through a script. Welcome to the world, my little file! This may be one of the most useful 
+
+## Activity 5 (Week 4)
+Started filtering, sorting and grouping. 
