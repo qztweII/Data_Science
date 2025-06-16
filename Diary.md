@@ -30,7 +30,10 @@ I noticed that the data listed many of the same people, the tallest person, Yao 
 This activity was about handling files. I tried to use relative paths, with `Week 3/Making a new file.py` trying to access `athlete_events.csv` by typing `data_path = "../athlete_events.csv"`. Little did I know that the path was not relative to the file itself, but the `DATA_SCIENCE` folder, so it was trying to access the parent folder, the `U:/` (aka my student drive). I tried this with `..\TEST!!!!!!`, accessing the `U:/` drive directly. 
 
 ## Activity 4 cont. 
-Made a new csv through a script. Welcome to the world, my little file! This may be one of the most useful 
+Made a new csv through a script. Welcome to the world, my little file! This may be one of the most useful python-related things I'll learn
 
 ## Activity 5 (Week 4)
 Started filtering, sorting and grouping. 
+
+## Activity 5 cont. 
+I learnt to clean data. Yaaay! I learnt to get rid of any NoneTypes within columns, with the medals column being the dirtiest. I dropped data when it could not be assumed, and I fixed data where I could 
