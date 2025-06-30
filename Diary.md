@@ -37,3 +37,6 @@ Started filtering, sorting and grouping.
 
 ## Activity 5 cont. 
 I learnt to clean data. Yaaay! I learnt to get rid of any NoneTypes within columns, with the medals column being the dirtiest. I dropped data when it could not be assumed, and I fixed data where I could 
+
+## Activity 6 (Week 5)
+Made graphs. Some were line graphs, others were histograms. 
