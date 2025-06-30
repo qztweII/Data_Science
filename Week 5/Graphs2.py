@@ -11,5 +11,5 @@ plt.xlabel('Olympic Year')
 plt.ylabel('Median Age')
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("Amazing_pictures/median_age_line.png")
+plt.savefig("Amazing_pictures/median_age_line.png") #You'd notice over the years, the athletes start get older. This is because of better sports medicine, training and recovery techniques, allowing athletes to stay in olympics for longer. 
 plt.show()
